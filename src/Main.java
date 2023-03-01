@@ -24,6 +24,7 @@ public class Main {
                 new Gamer("Джон", 12, 113, "PC"),
         };
 
+
         PrintService printService = new PrintService();
         printService.print(people);
         printService.print(customers);
